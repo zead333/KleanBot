@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lavPlaceholderHome"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+        android:padding="16dp"
+        android:src="@drawable/ic_robot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mtvPlaceholderOneAILanguageLearningAssistant"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/bg_shape_rounded_corner_filled"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/ai_language_learning_assistant_dummy_one"
+        android:textColor="?attr/colorTextBody"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lavPlaceholderHome" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mtvPlaceholderTwoAILanguageLearningAssistant"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_shape_rounded_corner_filled"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/ai_language_learning_assistant_dummy_two"
+        android:textColor="?attr/colorTextBody"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mtvPlaceholderOneAILanguageLearningAssistant" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mtvPlaceholderThreeAILanguageLearningAssistant"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_shape_rounded_corner_filled"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/ai_language_learning_assistant_dummy_three"
+        android:textColor="?attr/colorTextBody"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mtvPlaceholderTwoAILanguageLearningAssistant" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mtvHelpAILanguageLearningAssistant"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/how_can_i_help_you"
+        android:textColor="?attr/colorTextBody"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mtvPlaceholderThreeAILanguageLearningAssistant"
+        app:layout_constraintVertical_bias="0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
