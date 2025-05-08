@@ -9,12 +9,12 @@
     <string name="toast_please_enter_text_before_searching">Please enter text before searching</string>
 
 
-    <string name="ask_me_anything">Ask me Anything</string>
-    <string name="ai_language_learning_assistant_dummy_one">Answer all your questions with translation.\n(Just ask me anything you like!)</string>
-    <string name="ai_language_learning_assistant_dummy_two">Generate all the text you want.\n(essays, articles, reports, stories, &amp; more)</string>
-    <string name="ai_language_learning_assistant_dummy_three">Conversational AI.\n(I can talk to you like a natural human)</string>
-    <string name="how_can_i_help_you">How can I help you?</string>
-    <string name="ai_chat_error_message">Oops! 🙈 It seems Chat GPT is feeling a bit shy right now and needs some time to recharge. Please try again in a few moments, and we\'ll be back to spread some love! 💕</string>
-    <string name="ai_chat_limit_message">Oops! Message Limit Reached! 🚀 Upgrade for Unlimited Chat!\n\nYou\'ve hit the 2 message limit! 😕 Keep the conversation going with our AI assistant! Upgrade now for endless chatting fun! 🎉</string>
-    <string name="remove_limit">Remove Limit</string>
+    <string name="ask_me_anything">Ask me anything 🤔</string>
+    <string name="ai_chat_dummy_one">Need answers with a twist? I’ve got you covered.\n(Just type your question!)</string>
+    <string name="ai_chat_dummy_two">From essays to epic stories, I can generate all kinds of text.\n(Articles, reports, and beyond!)</string>
+    <string name="ai_chat_dummy_three">Let’s have a chat.\n(I respond just like a real human would!)</string>
+    <string name="how_can_i_help_you">What can I do for you today? 🤖</string>
+    <string name="ai_chat_error_message">Oops! 🙈 Looks like I need a quick recharge. Try again in a bit and we’ll pick up where we left off! 💬</string>
+    <string name="remove_limit">Unlock Limit 🚀</string>
+
 </resources>
