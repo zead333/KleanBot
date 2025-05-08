@@ -1,4 +1,4 @@
-package dev.pegasus.kleanbot.utilities
+    package dev.pegasus.kleanbot.utilities
 
 /**
  * Created by: Sohaib Ahmed
@@ -15,8 +15,10 @@ object ConstantUtils {
 
 
     // Open AI Api settings
-    const val OPEN_AI_API_KEY = ""
+    const val OPEN_AI_API_KEY = "sk"
     const val OPEN_AI_MODEL = "gpt-3.5-turbo"
+    //const val OPEN_AI_MODEL = "gpt-3.5-turbo-rHP2SNaL3UyL8hlZ8HnGT3Bl"
+    //const val OPEN_AI_MODEL = "gpt-3.5-turbobkFJWIOO8MJctsgux80ld1qp"
     const val OPEN_AI_TEMPERATURE = 0.7
     const val OPEN_AI_MAX_COMPLETION_TOKEN = 500
 
