@@ -20,8 +20,7 @@ KleanBot is a modern, modular Android sample project built with **Kotlin**, **MV
 
 ## 📸 Screenshots
 
-![image](https://github.com/user-attachments/assets/84e8d54c-c541-4685-9850-ed4ce3ed35d9)
-
+<img src="https://github.com/user-attachments/assets/84e8d54c-c541-4685-9850-ed4ce3ed35d9" width="300" height="600" />
 
 ---
 
