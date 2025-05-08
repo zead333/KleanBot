@@ -1,4 +1,4 @@
-package dev.pegasus.kleanbot.utilities
+    package dev.pegasus.kleanbot.utilities
 
 /**
  * Created by: Sohaib Ahmed
