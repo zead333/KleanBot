@@ -1,8 +1,8 @@
-# 🤖 KleanBot
+# 🤖 KleanBot – Android Chatbot App using OpenAI GPT-3.5 and Clean Architecture
 
-KleanBot is a modern, modular Android sample project built with **Kotlin**, **MVVM**, and **Clean Architecture**, demonstrating seamless integration with **OpenAI's Chat Completion API**.
+KleanBot is a Kotlin-based Android chatbot app that integrates OpenAI's GPT-3.5 Turbo API (or anyother) and follows modern clean architecture principles for scalable, testable development.
 
----
+## Android Chatbot Overview – Powered by OpenAI
 
 ## 🚀 Features
 
@@ -87,6 +87,14 @@ git clone https://github.com/yourusername/KleanBot.git
 
 ---
 
+## 🔑 Key Features of KleanBot
+
+- 🤖 AI-Powered Chat using GPT-3.5 Turbo
+- 💬 Kotlin-based clean architecture for Android apps
+- 🔁 Seamless integration with OpenAI API
+- ⚡ Asynchronous chat with Kotlin Coroutines and Flow
+- 🧪 Testable architecture using Koin DI and MVVM
+
 ## 💡 Inspiration
 
 Built to help devs understand:
@@ -101,6 +109,10 @@ Built to help devs understand:
 > _“Don't let your architecture rot. Klean it up.”_
 
 ---
+
+## 📈 Why Use KleanBot?
+
+Whether you're building a personal AI assistant, learning how to use GPT in Android apps, or exploring clean architecture with Kotlin, KleanBot offers a production-ready base to accelerate your development.
 
 ## 📜 License
 
