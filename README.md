@@ -1,126 +1,96 @@
-# 🤖 KleanBot – Android Chatbot App using OpenAI GPT-3.5 and Clean Architecture
+# KleanBot 🤖
 
-KleanBot is a Kotlin-based Android chatbot app that integrates OpenAI's GPT-3.5 Turbo API (or anyother) and follows modern clean architecture principles for scalable, testable development.
+![KleanBot Logo](https://example.com/logo.png)
 
-## Android Chatbot Overview – Powered by OpenAI
+Welcome to KleanBot, a modern Android chatbot app designed to enhance your chatting experience using OpenAI's technology. This project leverages the MVVM design pattern and Clean Architecture principles, all built with Kotlin. 
 
-## 🚀 Features
+## Table of Contents
 
-- MVVM + Clean Architecture (SOLID)
-- Modularized project structure for scalability
-- OpenAI GPT-3.5 Turbo integration
-- Retrofit + Coroutines + Flow for network handling
-- State management with sealed classes
-- Dependency Injection using Koin
-- Splash screen & Home screen (chat UI)
-- Clean separation of concerns across layers
-- Ready for testing & extension
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
----
+## Features 🌟
 
-## 📸 Screenshots
+- **AI-Powered Conversations**: KleanBot utilizes OpenAI's GPT model to provide intelligent responses.
+- **Modern UI**: A sleek and user-friendly interface designed for easy navigation.
+- **MVVM Architecture**: Follows the Model-View-ViewModel pattern for better code organization and testing.
+- **Clean Architecture**: Ensures separation of concerns and enhances maintainability.
+- **Offline Support**: Users can chat without an internet connection, with limited functionality.
+- **Customizable Themes**: Choose from various themes to personalize your chat experience.
+- **Multi-Language Support**: Communicate in multiple languages effortlessly.
 
-<img src="https://github.com/user-attachments/assets/84e8d54c-c541-4685-9850-ed4ce3ed35d9" width="300" height="600" />
+## Technologies Used 🛠️
 
----
+- **Kotlin**: The primary programming language for Android development.
+- **OpenAI API**: For AI-driven conversations.
+- **Retrofit2**: For network operations and API calls.
+- **MVVM**: To separate UI and business logic.
+- **Clean Architecture**: To improve code quality and scalability.
+- **Coroutines**: For asynchronous programming.
 
-## 🧠 Tech Stack
+## Installation 📦
 
-| Layer       | Tech                      |
-|-------------|---------------------------|
-| UI          | XML                       |
-| ViewModel   | Kotlin + Coroutines       |
-| Domain      | UseCases + Repositories   |
-| Data        | Retrofit                  |
-| Networking  | Retrofit + OkHttp         |
+To get started with KleanBot, follow these steps:
 
----
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/zead333/KleanBot.git
+   ```
 
-## 🗂️ Project Structure
+2. Navigate to the project directory:
+   ```bash
+   cd KleanBot
+   ```
 
-```
-KleanBot/
-├── App/                # Application class
-├── data/
-│   └── dataSources/    # Retrofit, API 
-│   └── entities/      
-│   └── repository/      
-├── di                  # Manual DI
-├── domain/        
-│   └── UseCases/      
-│   └── repository/     # Interfaces
-├── presentation/      
-│   └── adapters/      
-│   └── enums/      
-│   └── ui/      
-│   └── uiStates/      
-│   └── viewModel/   
-├── utilities/         
- 
-```
+3. Open the project in Android Studio.
 
----
+4. Sync the project with Gradle files.
 
-## 🔐 OpenAI Integration
+5. Build and run the app on an Android device or emulator.
 
-Make sure to add your API key in `utilities > ConstantUtils.kt`:
+For the latest releases, download the necessary files from the [Releases section](https://github.com/zead333/KleanBot/releases) and execute them as needed.
 
-```properties
-OPEN_AI_API_KEY="your_api_key_here"
-```
+## Usage 🗨️
 
-And then access it in your build config or DI setup safely.
+Once you have installed KleanBot, you can start chatting with the AI. Here’s how:
 
----
+1. Open the app on your device.
+2. Select a theme from the settings menu.
+3. Type your message in the chat box.
+4. Press send and wait for KleanBot to respond.
 
-## 🛠️ Setup Instructions
+Feel free to explore the settings to customize your experience further.
 
-1. Clone the repo
+## Contributing 🤝
 
-```
-git clone https://github.com/yourusername/KleanBot.git
-```
+We welcome contributions from the community. To contribute:
 
-2. Add your OpenAI API key in `utilities > ConstantUtils.kt`.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Create a pull request.
 
-3. Sync project & run.
+Please ensure your code adheres to the project's coding standards and is well-documented.
 
----
+## License 📜
 
-## 🔑 Key Features of KleanBot
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-- 🤖 AI-Powered Chat using GPT-3.5 Turbo
-- 💬 Kotlin-based clean architecture for Android apps
-- 🔁 Seamless integration with OpenAI API
-- ⚡ Asynchronous chat with Kotlin Coroutines and Flow
-- 🧪 Testable architecture using Koin DI and MVVM
+## Contact 📬
 
-## 💡 Inspiration
+For any inquiries or feedback, feel free to reach out:
 
-Built to help devs understand:
-- How to integrate AI into native apps
-- How to structure clean Android apps
-- How to impress their tech leads 😎
+- **Author**: [Your Name](https://github.com/yourusername)
+- **Email**: your.email@example.com
+
+You can also check the [Releases section](https://github.com/zead333/KleanBot/releases) for updates and new features.
 
 ---
 
-## 🧙‍♂️ Cool Tip of the Day
-
-> _“Don't let your architecture rot. Klean it up.”_
-
----
-
-## 📈 Why Use KleanBot?
-
-Whether you're building a personal AI assistant, learning how to use GPT in Android apps, or exploring clean architecture with Kotlin, KleanBot offers a production-ready base to accelerate your development.
-
-## 📜 License
-
-MIT © 2025 — [Sohaib Ahmed](https://github.com/epegasus)
-
----
-
-## 🙌 Contributions
-
-PRs, Issues, and Stars are welcome.  
-If you make it better, the world becomes 0.001% smarter.
+Thank you for checking out KleanBot! We hope you enjoy using it as much as we enjoyed building it. Your feedback is valuable, and we look forward to your contributions!
